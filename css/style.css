@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    color:maroon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    margin: 80px auto;
+    width: 720px;
+    height: 700px;
+    background-color: rgb(253, 157, 122);
+    position: relative;
+    display: flex;
+    border-radius: 3px;
+  
+}
+
+.con-item{
+    width:600px ;
+    height:550px;
+    background-color: cornsilk;
+    margin: 75px auto;
+    position: relative;
+    display: flex;
+    border-radius: 3px;
+    flex-direction: row;
+    box-shadow: 1px 1px 25px rgb(114, 106, 106);
+}
+
+.item-1{
+    padding: 60px;
+    width: 400px;
+    height: 550px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 3px 0 0 3px;
+    background-color: whitesmoke;
+   
+}
+
+.img-radio{
+    width: 140px;
+    height: 140px;
+    border:2px solid rgb(90, 28, 28);
+    border-radius: 50%;
+    position: relative;
+    left: 70px;
+    background-image: url(../img/00-32-30-images.jpg);
+    background-size: cover;
+}
+
+
+h2{
+    position: relative;
+    top: 30px;
+    left: 55px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+h3{
+    position: relative;
+    top: 30px;
+    left: 95px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+h4{
+
+    position: relative;
+    top: 9px;
+}
+
+
+
+.btn{
+    width: 228px;
+    height: 53px;
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+    justify-items: center;
+    top: 101px;
+    left: 23px;
+    border: 3px solid rgb(71, 35, 9);
+    border-radius: 30px;
+    margin: 5px;
+    font-size: 19px;
+    font-weight: 900; 
+    text-align: center;
+    padding: 11px;
+   
+}
+
+.btn:hover{
+    background-color: rgb(90, 28, 28); 
+    color: aliceblue;
+
+}
+
+
+
+.text{
+    position: relative;
+    top: 11px;
+   
+}
+
+
+.item-2{
+    width:200px;
+    height: 550px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 3px 3px 0;
+   
+   
+}
+
+.item-2-a{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    width: 200px;
+    height: 185px;
+    background-color: rgb(238, 196, 180);
+    margin: 1px 0;
+   text-align: center;
+}   
+
